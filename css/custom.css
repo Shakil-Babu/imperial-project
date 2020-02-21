@@ -1,0 +1,249 @@
+
+
+
+
+
+#firstSection .button{
+    background-color: #03C4EB;;
+    padding: 10px;
+    height: 45px;
+    width: 190px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+}
+
+#firstSection .button:hover{
+    border:1px solid;
+    background: none;
+    
+}
+
+#firstSection .button2{
+    border: 2px solid #03C4EB;;
+    padding: 10px;
+    width: 190px;
+
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid;
+}
+
+#firstSection .button2:hover{
+    background-color: #03C4EB;
+    border: none;
+ 
+}
+
+@media(max-width:372px){
+    #firstSection .button2{
+        margin-bottom:20px;
+    }
+}
+
+
+#firstSection{
+    background: url(../img/hero-bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 650px;
+}
+#firstSection .primary-overly{
+    background-color: #000000cc;
+    min-height: 650px;
+  
+}
+
+.imagesOFlogo{
+    margin-top: 155px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 1;
+}
+
+.imagesOfserviceSection{
+    background-color: #03C4EB;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+
+.BlockDesign .imagesOfserviceSection:hover{
+    background-color: orange;
+    transition: all 0.2s;
+}
+
+.BlockDesign{
+    width:330px;
+    background-color: black;
+    
+}
+.BlockDesign img{
+    width:57px;
+    float:left;
+}
+.BlockDesign .secondPart {
+    width:250px;
+    float:right;
+}
+
+#serviceSection{
+    background: url(../img/services-bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+.sectionOverly{
+    background-color: #ffffffe3;
+    min-height: 500px;
+}
+
+.subsCribe{
+    background: url(../img/subscribe-bg.jpg) no-repeat;
+    background-size:cover;
+    min-height: 200px;
+    background-attachment: fixed;
+
+
+}
+.overly{
+    background: #000000ab;
+    min-height: 200px;
+}
+
+.imageOfslider{
+    height:500px;
+    width: 730px;
+}
+.imageOfslide{
+    height: 308px;
+}
+
+#imagesOFmonialSection{
+    width:300px;
+    height:300px;
+    border-radius:200px;
+    border: 3px solid #fff;
+}
+#imagesOFmonialSection2{
+    width:300px;
+    height:300px;
+    border-radius:200px;
+    border: 3px solid #fff;
+    
+}
+
+.blockOFtesimonalial{
+    
+    background:url(../img/banner_bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;;
+    border-radius: 1px;
+    height: 151px;
+    margin-top: 85px;
+   
+}
+
+.blockOFtesimonalial2{
+    background:url(../img/banner_bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;;
+    border-radius:1px;
+    height: 151px;
+    margin-top: 50px;
+   
+}
+
+#testimonialSection{
+    background:url(../img/1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    min-width:500px;
+    margin-top: 50px;
+}
+.overlyOFimages{
+    background-color:#39373cc2;
+    min-width:500px;
+}
+
+.imageOFteam{
+    border:5px solid #fff;
+    height: 250px;
+}
+
+.colorOFimages{
+    background-color:#03C4EB;
+    border-radius: 77px;
+    width: 35px;
+    height: 35px;
+    float: left;
+    padding: 3px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.colorOFimages:hover{
+    background:none;
+    border-radius:77px;
+    border:2px solid #03C4EB;
+}
+
+
+
+@media(max-width:575px){
+    #firstSection .button2{
+        margin-top: 10px;
+        margin-right: 14px;
+    }
+
+}
+
+@media(max-width: 1500px){
+  .HeaderOp{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:991px){
+    .imageOfslide{
+        height: 260px;
+    }
+}
+
+@media(max-width:991px){
+    #imagesOFmonialSection{
+        height:200px;
+        border-radius:300px;
+        margin-top:45px;
+    }
+}
+
+@media(max-width:991px){
+    #imagesOFmonialSection2{
+        width:200px;
+        height:200px;
+        border-radius:300px;
+        margin-top:5px;
+    }
+}
+
+@media(max-width:767px){
+    #imagesOFmonialSection{
+        width:200px;
+        height:200px;
+        border-radius:300px;
+        margin-top:85px;
+    }
+}
+
+#contactSection{
+    background-color: #f7f7f7;
+}
+
+#Footersection{
+    background-color: #1f2525;
+}
